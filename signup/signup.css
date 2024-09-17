@@ -1,0 +1,62 @@
+.addUser {
+    background-color: white;
+    width: 25%;
+    margin: 50px auto;
+    /* margin in top and bottom will be 50px  */
+    /* left and right auto  */
+    padding: 40px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+  
+    /* horizon offset vertical offset blur offset  */
+    /* opacity of shadow */
+    /* red, green, blue, and (opacity ). */
+  }
+  
+  .addUserForm .inputGroup {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .addUserForm .inputGroup label {
+    margin-top: 15px;
+    font-size: 24px;
+    background: linear-gradient(90deg, #8474a1 20%, #302b3b);
+  }
+  
+  .addUserForm .inputGroup input {
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 25px;
+  }
+  
+  .inputGroup button {
+    border-radius: 45px;
+    background: linear-gradient(0deg, #020f0f, #1b2727);
+    box-shadow: var(--drop10blur-10);
+    margin-top: 10px;
+  }
+  
+  
+  .login {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .login .btn.btn-primary {
+    width: 50%;
+  }
+  
+  .addUser h3 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: (89.99deg, #022b2c, #1b2727);
+  }
+  
+  .addUser p {
+    text-shadow: var(--drop-10-5-blur);
+    color: #4e6b6b;
+    font-size: 16px;
+  }
